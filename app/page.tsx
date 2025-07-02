@@ -5,6 +5,7 @@ import { NewsIntegrationSection } from "@/components/landing/news-integration-se
 import DemoSection from  "@/components/landing/demo-section"
 
 import { CTAFooterSection } from "@/components/landing/cta-footer-section"
+import TestSignInPage from "@/components/landing/test-signin"
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function LandingPage() {
       <NewsIntegrationSection />
       <DemoSection />
       <CTAFooterSection />
+      {/* <TestSignInPage/> */}
     </div>
   )
 }

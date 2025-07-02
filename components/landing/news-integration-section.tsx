@@ -61,7 +61,7 @@ export function NewsIntegrationSection() {
                   <div className="w-3 h-3 bg-yellow-500 rounded-full" />
                   <div className="w-3 h-3 bg-green-500 rounded-full" />
                 </div>
-                <div className="text-gray-400 text-sm">StudyHub - Tech News Feed</div>
+                <div className="text-gray-400 text-sm">BrainLink - Tech News Feed</div>
               </div>
 
               <div className="space-y-4">

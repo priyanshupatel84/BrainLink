@@ -12,7 +12,7 @@ export function CTAFooterSection() {
                 <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">S</span>
                 </div>
-                <span className="text-white font-bold text-xl">StudyHub</span>
+                <span className="text-white font-bold text-xl">BrainLink</span>
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
                 The future of student collaboration. Connect, collaborate, and conquer your coursework with integrated
@@ -30,7 +30,7 @@ export function CTAFooterSection() {
           </div>
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col sm:flex-row justify-between items-center">
-              <p className="text-gray-400 text-sm">© 2025 StudyHub. All rights reserved.</p>
+              <p className="text-gray-400 text-sm">© 2025 BrainLink. All rights reserved.</p>
               <p className="text-gray-400 text-sm mt-2 sm:mt-0">Built with ❤️ by students, for students</p>
             </div>
           </div>

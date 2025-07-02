@@ -51,7 +51,7 @@ function CreateJoinRoomsUI() {
         {/* Channel List */}
         <div className="w-60 bg-gray-700 flex flex-col">
           <div className="p-4 border-b border-gray-600">
-            <h3 className="font-semibold text-white">StudyHub Server</h3>
+            <h3 className="font-semibold text-white">BrainLink Server</h3>
             <p className="text-xs text-gray-400">Computer Science Hub</p>
           </div>
           
@@ -455,7 +455,7 @@ export default function DemoSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            From setup to collaboration, here&apos;s how StudyHub transforms your academic workflow.
+            From setup to collaboration, here&apos;s how BrainLink transforms your academic workflow.
           </p>
         </div>
 

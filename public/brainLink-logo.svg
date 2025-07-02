@@ -1,0 +1,27 @@
+<svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for the icon -->
+  <circle cx="30" cy="30" r="25" fill="#6366f1" opacity="0.1"/>
+  
+  <!-- Main hub/network icon -->
+  <g transform="translate(30, 30)">
+    <!-- Central hub -->
+    <circle cx="0" cy="0" r="4" fill="#6366f1"/>
+    
+    <!-- Connected nodes representing students/collaboration -->
+    <circle cx="-12" cy="-8" r="3" fill="#6366f1" opacity="0.8"/>
+    <circle cx="12" cy="-8" r="3" fill="#6366f1" opacity="0.8"/>
+    <circle cx="-8" cy="10" r="3" fill="#6366f1" opacity="0.8"/>
+    <circle cx="8" cy="10" r="3" fill="#6366f1" opacity="0.8"/>
+    
+    <!-- Connection lines -->
+    <line x1="0" y1="0" x2="-12" y2="-8" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="0" x2="12" y2="-8" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="0" x2="-8" y2="10" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="0" x2="8" y2="10" stroke="#6366f1" stroke-width="2" opacity="0.6"/>
+    
+    <!-- Study/book element integrated -->
+    <rect x="-2" y="-2" width="4" height="4" fill="white" rx="0.5"/>
+    <line x1="-1.5" y1="-0.5" x2="1.5" y2="-0.5" stroke="#6366f1" stroke-width="0.5"/>
+    <line x1="-1.5" y1="0.5" x2="1.5" y2="0.5" stroke="#6366f1" stroke-width="0.5"/>
+  </g>
+</svg>

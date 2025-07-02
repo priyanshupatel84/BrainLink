@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles } from "lucide-react"
 import { useRouter } from "next/navigation"
-import { StudyHubLogo } from "@/components/studyHubLogo"
+import { BrainLinkLogo } from "@/components/brainLink-logo"
 
 export function HeroSection() {
   const router = useRouter()
@@ -27,7 +27,7 @@ export function HeroSection() {
         <div className="mb-8">
           {/* Logo */}
           <div className="mb-8">
-            <StudyHubLogo 
+            <BrainLinkLogo 
               className="text-white mx-auto" 
               size="large"
             />
@@ -47,7 +47,7 @@ export function HeroSection() {
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Real-time chat rooms, live study calendars, and a pulse on the latest in tech—
+            Real-time chat rooms, live study servers, and a pulse on the latest in tech—
             <span className="text-purple-400 font-semibold"> all in one platform</span>
           </p>
         </div>
@@ -76,7 +76,7 @@ export function HeroSection() {
                   <div className="w-3 h-3 bg-yellow-500 rounded-full" />
                   <div className="w-3 h-3 bg-green-500 rounded-full" />
                 </div>
-                <div className="text-gray-400 text-sm">StudyHub - CS 101 Study Group</div>
+                <div className="text-gray-400 text-sm">BrainLink - CS 101 Study Group</div>
               </div>
 
               <div className="space-y-3">
@@ -85,7 +85,7 @@ export function HeroSection() {
                     A
                   </div>
                   <div className="flex-1">
-                    <div className="text-purple-400 text-sm font-semibold">Alex Chen</div>
+                    <div className="text-purple-400 text-sm font-semibold">Rohan Singh</div>
                     <div className="text-gray-300 text-sm">Just shared the latest React 18 news! 🚀</div>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export function HeroSection() {
                     S
                   </div>
                   <div className="flex-1">
-                    <div className="text-blue-400 text-sm font-semibold">Sarah Kim</div>
+                    <div className="text-blue-400 text-sm font-semibold">Saurav Sanu</div>
                     <div className="text-gray-300 text-sm">
                       Perfect timing! We&apos;re covering hooks in tomorrow&apos;s project
                     </div>
