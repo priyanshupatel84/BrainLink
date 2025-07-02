@@ -49,7 +49,7 @@ Ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/brainlink.git
+    git clone https://github.com/priyanshupatel84/BrainLink.git
     cd discord-clone
     ```
 
@@ -132,80 +132,6 @@ yarn start
 ```
 
 This will start the custom Node.js server (`server.js`) which handles both Next.js and Socket.io.
-
-## Project Structure
-
-```
-.
-├── app/                  # Next.js App Router directory containing all routes, API endpoints, and main layouts.
-│   ├── (auth)/           # Grouped routes for authentication flows (e.g., sign-in, sign-up pages).
-│   │   └── (routes)/     # Contains specific authentication pages.
-│   ├── (invite)/         # Routes related to server invitation handling.
-│   ├── (main)/           # Core application routes, including server, channel, and conversation views.
-│   │   └── (routes)/     # Contains main application pages.
-│   │       ├── servers/[serverId]/ # Dynamic routes for individual servers.
-│   │       │   ├── channels/[channelId]/ # Dynamic routes for specific channels within a server.
-│   │       │   └── conversations/[memberId]/ # Dynamic routes for direct messages with a member.
-│   ├── api/              # Backend API routes (Next.js API Routes) for various functionalities.
-│   │   ├── channels/     # API for channel creation, updates, and deletion.
-│   │   ├── direct-messages/ # API for direct message handling.
-│   │   ├── livekit/      # API for LiveKit token generation and related operations.
-│   │   ├── members/      # API for server member management (roles, kicking).
-│   │   ├── messages/     # API for sending and fetching chat messages.
-│   │   ├── servers/      # API for server creation, updates, invites, and leaving.
-│   │   └── uploadthing/  # API endpoint for Uploadthing file uploads.
-│   ├── setup/            # Initial setup page for new users or first-time server creation.
-│   ├── globals.css       # Global CSS styles for the application.
-│   ├── layout.tsx        # Root layout for the entire application.
-│   └── page.tsx          # Root page of the application.
-├── components/           # Reusable React components organized by feature or type.
-│   ├── chat/             # Components specifically for the chat interface (header, input, messages).
-│   ├── landing/          # Components for the public-facing landing page.
-│   ├── modals/           # Collection of modal components for various user interactions (e.g., create server, invite, edit channel).
-│   ├── navigation/       # Components for the main navigation sidebar and related actions.
-│   ├── providers/        # React context providers (e.g., ModalProvider, QueryProvider, SocketProvider, ThemeProvider).
-│   ├── server/           # Components related to displaying and interacting with server-specific elements (header, channels, members).
-│   ├── ui/               # Shadcn UI components, customized or directly used.
-│   └── *.tsx             # Other general-purpose components (e.g., action-tooltip, file-upload, mode-toggle).
-├── hooks/                # Custom React hooks to encapsulate reusable logic and stateful behavior.
-│   ├── use-chat-query.ts # Hook for fetching chat messages with infinite scrolling.
-│   ├── use-chat-scroll.ts # Hook for managing chat scroll behavior.
-│   ├── use-chat-socket.ts # Hook for handling Socket.io events related to chat.
-│   ├── use-mobile.tsx    # Hook to detect mobile viewports.
-│   ├── use-modal-store.ts # Zustand store for managing modal states.
-│   └── use-origin.ts     # Hook to get the current origin URL.
-├── lib/                  # Utility functions, database connection, and helper functions.
-│   ├── conversation.ts   # Utility functions for direct message conversations.
-│   ├── current-profile-pages.ts # Helper for getting current profile in pages router (for socket API).
-│   ├── current-profile.ts # Helper for getting current profile in app router.
-│   ├── db.ts             # Database connection and Prisma client initialization.
-│   ├── initial-profile.ts # Function to create an initial user profile on first login.
-│   ├── uploadthing.ts    # Uploadthing configuration and utilities.
-│   └── utils.ts          # General utility functions (e.g., `cn` for Tailwind class merging).
-├── pages/api/socket/     # Dedicated API routes for Socket.io event handling (Next.js Pages Router).
-│   ├── direct-messages/  # Socket API for direct messages.
-│   └── messages/         # Socket API for channel messages.
-├── prisma/               # Prisma schema definition and database migration files.
-│   ├── schema.prisma     # Defines the database schema (models, relations).
-│   └── migrations/       # Stores database migration history.
-├── public/               # Static assets served directly by Next.js (images, fonts, etc.).
-├── styles/               # Contains global CSS files or specific stylesheets.
-│   └── sidebar.css       # Custom styles for the navigation sidebar.
-├── .eslintrc.json        # ESLint configuration for code linting.
-├── .gitignore            # Specifies intentionally untracked files to ignore by Git.
-├── components.json       # Configuration for Shadcn UI components.
-├── eslint.config.mjs     # ESLint configuration.
-├── middleware.ts         # Next.js middleware for request handling (e.g., authentication).
-├── next.config.js        # Next.js configuration file.
-├── next.config.ts        # Next.js configuration file (TypeScript).
-├── package.json          # Project dependencies and scripts.
-├── postcss.config.mjs    # PostCSS configuration for Tailwind CSS.
-├── README.md             # This README file.
-├── server.js             # Custom Node.js server for integrating Socket.io with Next.js.
-├── tailwind.config.ts    # Tailwind CSS configuration.
-├── tsconfig.json         # TypeScript configuration.
-└── types.ts              # Global TypeScript type definitions.
-```
 
 ## Deployment
 
