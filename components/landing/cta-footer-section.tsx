@@ -19,10 +19,10 @@ export function CTAFooterSection() {
                 tech news and powerful study tools.
               </p>
               <div className="flex gap-4">
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://github.com/priyanshupatel84/BrainLink" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+                <a href="https://www.linkedin.com/in/priyanshupatel007" className="text-gray-400 hover:text-purple-400 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
               </div>
